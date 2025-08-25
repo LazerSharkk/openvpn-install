@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+# PRESERVED FROM
+# https://github.com/LazerSharkk/openvpn-install
+#
 # https://github.com/hwdsl2/openvpn-install
 #
 # Based on the work of Nyr and contributors at:
