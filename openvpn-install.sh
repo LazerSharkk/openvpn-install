@@ -1060,7 +1060,7 @@ update_sysctl() {
 		echo "net.ipv6.conf.all.forwarding=1" >> "$conf_fwd"
 	fi
 	# Optimize sysctl settings such as TCP buffer sizes
-	base_url="https://github.com/hwdsl2/vpn-extras/releases/download/v1.0.0"
+	base_url="https://github.com/LazerSharkk/vpn-extras/releases/download/v1.0.0"
 	conf_url="$base_url/sysctl-ovpn-$os"
 	[ "$auto" != 0 ] && conf_url="${conf_url}-auto"
 	wget -t 3 -T 30 -q -O "$conf_opt" "$conf_url" 2>/dev/null \
